@@ -1,0 +1,226 @@
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>HỆ THỐNG QUẢN LÝ SỐ CÔNG VIỆC CÁ NHÂN THEO THỜI GIAN THỰC</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>100</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+        @page {
+            size: A4 landscape;
+            margin: 2.0cm 2.0cm 2.0cm 2.0cm;
+        }
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.3;
+            color: #000000;
+        }
+        .dashboard-header {
+            text-align: center;
+            border-bottom: 2px solid #002060;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header-title-main {
+            color: #002060;
+            font-size: 15pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        .header-title-sub {
+            color: #4682B4;
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 5px 0 0 0;
+        }
+        .system-status {
+            font-style: italic;
+            font-size: 10pt;
+            color: #008000;
+            font-weight: bold;
+            text-align: right;
+            margin-bottom: 15px;
+        }
+        .architecture-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            font-size: 10.5pt;
+        }
+        .architecture-table th {
+            background-color: #002060;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align: center;
+            padding: 8px;
+            border: 1px solid #002060;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
+        .architecture-table td {
+            padding: 8px;
+            border: 1px solid #D3D3D3;
+            vertical-align: top;
+            text-align: justify;
+        }
+        .pillar-tag {
+            font-weight: bold;
+            color: #002060;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 10pt;
+            border-bottom: 1px solid #4682B4;
+            padding-bottom: 2px;
+        }
+        .bg-light {
+            background-color: #F9FAFB;
+        }
+        .badge-owner {
+            color: #0288D1;
+            font-weight: bold;
+        }
+        .badge-lead {
+            color: #D32F2F;
+            font-weight: bold;
+        }
+        ul {
+            margin: 0;
+            padding-left: 15px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ĐẦU TRANG HỆ THỐNG -->
+    <div class="dashboard-header">
+        <div class="header-title-main">ĐẠI HỌC HUẾ &mdash; GIAO DIỆN PHÂN HỆ QUẢN TRỊ ĐIỀU HÀNH TẬP TRUNG</div>
+        <div class="header-title-sub">Hệ thống Quản lý Số Công việc Cá nhân theo Thời gian thực &bull; Bộ phận Quan hệ Quốc tế</div>
+    </div>
+
+    <div class="system-status">Trạng thái: Kết nối đồng bộ dữ liệu trực tuyến với Ban Giám đốc Đại học Huế (Real-Time Sync)</div>
+
+    <!-- BẢNG KIẾN TRÚC QUẢN LÝ SỐ -->
+    <table class="architecture-table">
+        <thead>
+            <tr>
+                <th style="width: 18%;">Mảng công tác & Danh mục Dự án</th>
+                <th style="width: 20%;">Tiến độ công việc cập nhật trực tuyến (Real-Time Metrics)</th>
+                <th style="width: 14%;">Người / Tổ chức phối hợp</th>
+                <th style="width: 10%;">Hạn chót cập nhật</th>
+                <th style="width: 18%;">Khó khăn, vướng mắc tồn đọng</th>
+                <th style="width: 20%;">Đề xuất, kiến nghị giải pháp</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <!-- TRỤ CỘT 1 -->
+            <tr>
+                <td>
+                    <span class="pillar-tag">Trụ cột 1: DIES NMT 2025-2026</span>
+                    <strong>Điều phối tập huấn đối ngoại vùng</strong><br>
+                    <span style="font-size: 9pt; color: #555555;">Trạng thái: Giai đoạn chuyển giao giá trị</span>
+                </td>
+                <td>
+                    - Đang tự động hóa theo dõi tiến độ hoàn thiện hồ sơ kỹ thuật cho **Project Charters 1, 2, 3**.<br>
+                    - Cập nhật danh sách đại biểu trực tuyến từ các trường đối tác đối ứng nội địa (**NEU, VNU, HUST**).<br>
+                    - Chuẩn bị kế hoạch hậu cần và nội dung chuyên môn cho Workshop 2 (tháng 5/2026 tại Hà Nội).
+                </td>
+                <td>
+                    - Đại học Potsdam (Đức).<br>
+                    - Chuyên gia điều phối tại NEU, VNU, HUST.<br>
+                    - Tổ QA Đại học Huế.
+                </td>
+                <td style="text-align: center; font-weight: bold; color: #D32F2F;">Định kỳ hàng tuần<br>(Thứ Sáu trước 17:00)</td>
+                <td>Hệ thống múi giờ làm việc lệch giữa đầu đầu mối Châu Âu và Việt Nam làm chậm tiến độ phản hồi, thống nhất văn bản ghi nhớ (Minutes) kỹ thuật ở một số phiên họp hẹp.</td>
+                <td>Kiến nghị Lãnh đạo phê duyệt cơ chế phân cấp cho phép chuyên viên chủ động chốt các biên bản thảo luận kỹ thuật thuần túy, chỉ trình Lãnh đạo đối với các điều khoản ràng buộc nghĩa vụ.</td>
+            </tr>
+
+            <!-- TRỤ CỘT 2 -->
+            <tr class="bg-light">
+                <td>
+                    <span class="pillar-tag">Trụ cột 2: Học bổng ASEAN</span>
+                    <strong>Quản lý Quỹ học bổng vùng</strong><br>
+                    <span style="font-size: 9pt; color: #555555;">Trạng thái: Vận hành luồng tài chính</span>
+                </td>
+                <td>
+                    - Giám sát luồng phân bổ kinh phí tài trợ trực tuyến trên hệ thống đối với 7 quốc gia thành viên ASEAN.<br>
+                    - Cập nhật chỉ số dịch chuyển (Inbound/Outbound) của giảng viên và học viên sau đại học theo thời gian thực.
+                </td>
+                <td>
+                    - Ban Kế hoạch - Tài chính ĐHH.<br>
+                    - Phòng Hợp tác Quốc tế các trường Đại học thành viên ĐHH.<br>
+                    - Ban điều phối mạng lưới ASEAN.
+                </td>
+                <td style="text-align: center; font-weight: bold;">Ngày 25 hàng tháng</td>
+                <td>Quy trình đối ứng chứng từ và xác minh tỷ giá ngoại tệ giữa các ngân hàng đại lý trong khu vực ASEAN có độ trễ lớn, dễ gây rủi ro lệch tiến độ giải ngân theo kế hoạch quý.</td>
+                <td>Kính đề xuất Lãnh đạo ĐHH làm việc với Ban KHTC để thiết lập hạn mức phê duyệt nhanh đối với các khoản chi học bổng ngắn hạn dưới 50 triệu đồng nhằm tăng tốc quy trình[cite: 2].</td>
+            </tr>
+
+            <!-- TRỤ CỘT 3 -->
+            <tr>
+                <td>
+                    <span class="pillar-tag">Trụ cột 3: Cổng thông tin số</span>
+                    <strong>Vận hành Digital ASEAN Student Portal</strong><br>
+                    <span style="font-size: 9pt; color: #555555;">Trạng thái: Tích hợp kỹ thuật số IaH</span>
+                </td>
+                <td>
+                    - Kiểm tra tự động lưu lượng truy cập hệ thống, băng thông kết nối và số lượng dữ liệu hồ sơ trao đổi tín chỉ.<br>
+                    - Đồng bộ hóa dữ liệu quy đổi học phần trực tuyến theo tiêu chuẩn của **Hệ thống chuyển đổi tín chỉ ASEAN (ACTS)**.
+                </td>
+                <td>
+                    - Viện Chuyển đổi số và Học liệu ĐHH.[cite: 2]<br>
+                    - Bộ phận CNTT các đối tác ASEAN.<br>
+                    - Ban Đào tạo và Công tác HSSV ĐHH.
+                </td>
+                <td style="text-align: center; font-weight: bold; color: #002060;">Cập nhật tự động<br>(Real-time API)</td>
+                <td>Cơ sở dữ liệu học phần của một số trường thành viên chưa đồng bộ định dạng số, dẫn đến xung đột hệ thống khi kết nối API trực tiếp với Cổng thông tin ASEAN.</td>
+                <td>Kiến nghị Lãnh đạo ĐHH chỉ đạo một đợt chuẩn hóa định dạng mã học phần tiếng Anh trên toàn Cơ quan ĐHH để tích hợp thông suốt.</td>
+            </tr>
+
+            <!-- TRỤ CỘT 4 -->
+            <tr class="bg-light">
+                <td>
+                    <span class="pillar-tag">Trụ cột 4: Chuẩn hóa MoA</span>
+                    <strong>Phát triển mạng lưới văn bản thỏa thuận</strong><br>
+                    <span style="font-size: 9pt; color: #555555;">Trạng thái: Thẩm định & Quản trị rủi ro</span>
+                </td>
+                <td>
+                    - Theo dõi trạng thái ký kết văn bản (Đang soạn thảo / Đang rà soát pháp lý / Đã ký kết).<br>
+                    - Đo lường hiệu quả áp dụng mô hình sao chép cấu trúc luận điểm "Counter-Scarcity Narrative" vào các đề xuất dự án quốc tế.
+                </td>
+                <td>
+                    - Ban Kiểm tra và Pháp chế ĐHH.[cite: 2]<br>
+                    - Văn phòng Luật đại diện đối tác ngoại.<br>
+                    - Các tổ chức tài trợ tài chính (DAAD, British Council).
+                </td>
+                <td style="text-align: center; font-weight: bold; color: #D32F2F;">Trước ngày họp<br>Giao ban Ban chức năng[cite: 1]</td>
+                <td>Các điều khoản về bản quyền sở hữu trí tuệ đối với kết quả nghiên cứu chung và mô hình đồng tài trợ (co-funding) thường gặp vướng mắc hành chính khi đối chiếu giữa luật quốc tế và quy định hiện hành.</td>
+                <td>Đề xuất xây dựng một danh mục các điều khoản điều ước quốc tế mẫu (Model Clauses) đã được Ban Pháp chế thông qua trước để áp dụng nhanh cho các đối tác chiến lược bậc 1 (Tier-1).[cite: 2]</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <!-- GHI CHÚ QUYỀN TRUY CẬP PHÂN HỆ -->
+    <div style="font-size: 9.5pt; color: #555555; border-top: 1px solid #D3D3D3; padding-top: 8px;">
+        <strong>Phân quyền bảo mật hệ thống:</strong> Chuyên viên cá nhân giữ quyền <span class="badge-owner">Read/Write</span> (Cập nhật dữ liệu tác nghiệp thực tế) &bull; Phó Giám đốc phụ trách toàn diện giữ quyền <span class="badge-lead">Absolute Read/Audit Authority</span> (Truy cập, theo dõi kiểm tra trực tiếp và phê duyệt tối cao trên hệ thống dashboard)[cite: 1].
+    </div>
+
+</body>
+</html>
